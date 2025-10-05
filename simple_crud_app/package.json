@@ -1,0 +1,23 @@
+{
+  "name": "simple_crud_app",
+  "version": "1.0.0",
+  "description": "A simple working CRUD api using Node, express and MongoDB",
+  "license": "ISC",
+  "author": "ikki",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
